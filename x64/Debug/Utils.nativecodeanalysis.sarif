@@ -1,0 +1,113 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Utils.cpp"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sdds::delAlloCopy",
+                  "decoratedName": "?delAlloCopy@sdds@@YAXAEAPEADPEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Utils.cpp"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sdds::dynRead",
+                  "decoratedName": "?dynRead@sdds@@YAPEADAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@D@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Utils.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d823342f2bb24c7b629cb7ece26594135fae62f9f10c27476b6f27534308ad69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/pos.h"
+          },
+          "hashes": {
+            "sha-256": "5f7b713ddf070b518ef8619e2b1e4b9f396b1964fa242c5c32c7af148a7613f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/error.h"
+          },
+          "hashes": {
+            "sha-256": "b16f44213f74fc87154ba3ce9f5334da57884bc3478e80a7876f03174b7b731b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/utils.h"
+          },
+          "hashes": {
+            "sha-256": "f188dfc7f5b584a33af2af4d250ac6ddf1fdb5044e2c5a4ea67ef8264d2bd4f1"
+          }
+        }
+      ]
+    }
+  ]
+}

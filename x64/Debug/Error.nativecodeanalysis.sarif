@@ -1,0 +1,193 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'sdds::Error::number' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Error.cpp"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 9,
+                  "endLine": 13,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sdds::Error::{ctor}",
+                  "decoratedName": "??0Error@sdds@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "sdds::Error::number"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Error.cpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sdds::Error::{ctor}",
+                  "decoratedName": "??0Error@sdds@@QEAA@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'sdds::Error::number' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Error.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 9,
+                  "endLine": 18,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sdds::Error::{ctor}",
+                  "decoratedName": "??0Error@sdds@@QEAA@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "sdds::Error::number"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Error.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sdds::Error::=",
+                  "decoratedName": "??4Error@sdds@@QEAAAEAV01@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Error.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sdds::Error::=",
+                  "decoratedName": "??4Error@sdds@@QEAAAEAV01@AEBV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/rrold/Desktop/Milestone3/Point of Sale system/point of sale/point of sale/Error.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "37d32469354af24b73705aeac347443477657d875eff3321de5e486be392e24b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/pos.h"
+          },
+          "hashes": {
+            "sha-256": "5f7b713ddf070b518ef8619e2b1e4b9f396b1964fa242c5c32c7af148a7613f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/error.h"
+          },
+          "hashes": {
+            "sha-256": "b16f44213f74fc87154ba3ce9f5334da57884bc3478e80a7876f03174b7b731b"
+          }
+        }
+      ]
+    }
+  ]
+}

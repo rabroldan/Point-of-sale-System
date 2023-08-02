@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\</FILEPATH>
+      <FILENAME>Item.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'sdds::Item::m_displayType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>sdds::Item::{ctor}</FUNCTION>
+    <DECORATED>??0Item@sdds@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>sdds::Item::m_displayType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\</FILEPATH>
+      <FILENAME>Item.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'sdds::Item::totalprices' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>sdds::Item::{ctor}</FUNCTION>
+    <DECORATED>??0Item@sdds@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>sdds::Item::totalprices</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\</FILEPATH>
+      <FILENAME>Item.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'sdds::Item::m_totalprice' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>sdds::Item::{ctor}</FUNCTION>
+    <DECORATED>??0Item@sdds@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>sdds::Item::m_totalprice</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\</FILEPATH>
+      <FILENAME>Item.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>sdds::Item::=</FUNCTION>
+    <DECORATED>??4Item@sdds@@QEAAAEAV01@AEBV01@@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

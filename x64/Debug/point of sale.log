@@ -1,0 +1,15 @@
+﻿  Error.cpp
+C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\Error.cpp(26,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\Error.cpp(55,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\Error.cpp(71,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Item.cpp
+C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\Item.cpp(39,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\Item.cpp(324,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\Item.cpp(436,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\Item.cpp(512,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\Item.cpp(526,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  PosIO.cpp
+  Utils.cpp
+  Generating Code...
+  point of sale.vcxproj -> C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\x64\Debug\point of sale.exe

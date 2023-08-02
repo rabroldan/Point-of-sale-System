@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/main_prof.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "78038cce110a295f7f38fdfc3a9fa48ab5e41fe792f52360950a4beebc01572c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/item.h"
+          },
+          "hashes": {
+            "sha-256": "fbf5d45ee0f55bd8347552d5d3df04b9b138a08e6c6c3216367b55eeeb07c287"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/pos.h"
+          },
+          "hashes": {
+            "sha-256": "5f7b713ddf070b518ef8619e2b1e4b9f396b1964fa242c5c32c7af148a7613f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/posio.h"
+          },
+          "hashes": {
+            "sha-256": "6978f9d53bd21187b13bf8ca39f6b5f862018f3efcf657216a052aa1c8b52781"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/error.h"
+          },
+          "hashes": {
+            "sha-256": "b16f44213f74fc87154ba3ce9f5334da57884bc3478e80a7876f03174b7b731b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rrold/desktop/milestone3/point of sale system/point of sale/point of sale/utils.h"
+          },
+          "hashes": {
+            "sha-256": "f188dfc7f5b584a33af2af4d250ac6ddf1fdb5044e2c5a4ea67ef8264d2bd4f1"
+          }
+        }
+      ]
+    }
+  ]
+}

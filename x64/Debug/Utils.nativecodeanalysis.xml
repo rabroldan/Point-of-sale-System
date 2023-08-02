@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\</FILEPATH>
+      <FILENAME>Utils.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>sdds::delAlloCopy</FUNCTION>
+    <DECORATED>?delAlloCopy@sdds@@YAXAEAPEADPEBD@Z</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\rrold\Desktop\Milestone3\Point of Sale system\point of sale\point of sale\</FILEPATH>
+      <FILENAME>Utils.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>sdds::dynRead</FUNCTION>
+    <DECORATED>?dynRead@sdds@@YAPEADAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@D@Z</DECORATED>
+    <FUNCLINE>62</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
